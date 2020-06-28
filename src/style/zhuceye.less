@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+body,
+html {
+    width     : 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    font-size       : 12px;
+    background-color: rgb(247, 247, 247);
+
+    .out {
+        .in {
+            width     : 860px;
+            min-height: 670px;
+            background: #fff;
+            margin    : 0 auto;
+            margin-top: 80px;
+            overflow  : hidden;
+
+            .logo {
+                margin-top: 60px;
+
+                .logobox {
+                    width : 160px;
+                    height: 42px;
+                    margin: 0 auto;
+                    cursor: pointer;
+
+                    img {
+                        width  : 100%;
+                        height : 100%;
+                        display: block;
+                    }
+                }
+            }
+
+            .title {
+                font-family: HYQiHei-FZS;
+                font-size  : 22px;
+                color      : #000;
+                text-align : center;
+                margin-top : 33px;
+            }
+
+            .outbox {
+                width        : 360px;
+                margin       : 0 auto;
+                margin-top   : 63px;
+                margin-bottom: 100px;
+
+                .innerbox {
+                    width: 360px;
+
+                    .country {
+                        height          : 46px;
+                        background-color: #fff;
+                        border          : 1px solid #dedfe0;
+                        font-size       : 16px;
+                        color           : #000;
+                        padding-left    : 12px;
+                        line-height     : 48px;
+                        position        : relative;
+                        cursor          : pointer;
+
+                        .show-country {
+                            height  : 46px;
+                            position: relative;
+
+                            .arrow {
+                                width   : 18.8px;
+                                height  : 10.2px;
+                                float   : right;
+                                position: absolute;
+                                top     : 19px;
+                                right   : 15.2px;
+
+                                img {
+                                    width         : 18.8px;
+                                    height        : 10.2px;
+                                    vertical-align: top;
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+                    .hint {
+                        margin-top : 10px;
+                        font-size  : 14px;
+                        color      : #999;
+                        line-height: 19px;
+                    }
+
+                    .phonebox {
+                        margin-top: 15px;
+                        height    : 46px;
+                        border    : 1px solid #dedfe0;
+                        cursor    : pointer;
+
+                        .phonecode {
+                            width       : 94px;
+                            height      : 46px;
+                            padding-left: 12px;
+                            line-height : 46px;
+                            font-size   : 16px;
+                            color       : #000;
+                            float       : left;
+                            position    : relative;
+
+                            .showcode {
+                                position: relative;
+
+                                .after {
+                                    width          : 13.2px;
+                                    height         : 7.7px;
+                                    position       : absolute;
+                                    top            : 21.3px;
+                                    right          : 31.3px;
+                                    background     : url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/arrow-down.42027c9.png) no-repeat;
+                                    background-size: 100% 100%;
+                                }
+
+                                .input {
+                                    top             : 0px;
+                                    right           : -252px;
+                                    position        : absolute;
+                                    width           : 264px;
+                                    font-size       : 16px;
+                                    color           : #aaaaaa;
+                                    height          : 46px;
+                                    line-height     : 46px;
+                                    overflow        : hidden;
+                                    text-overflow   : ellipsis;
+                                    white-space     : nowrap;
+                                    background-color: transparent !important;
+                                    border          : none;
+                                    letter-spacing  : 1px !important;
+                                    margin          : 0;
+                                }
+
+                                .input::-webkit-input-placeholder,
+                                textarea::-webkit-input-placeholder {
+                                    /* WebKit browsers */
+                                    color: #aaa;
+                                }
+                            }
+                        }
+                    }
+
+                    .proto {
+                        margin-top : 20px;
+                        font-size  : 14px;
+                        height     : 20px;
+                        line-height: 20px;
+
+                        input {
+                            width     : 18px;
+                            height    : 18px;
+                            border    : 1px solid #dedfe0;
+                            margin-top: 1px;
+                            float     : left;
+                            position  : relative;
+                        }
+
+                        span {
+                            margin-left: 8px;
+                            color      : #252525;
+                            display    : inline;
+                        }
+
+                        .span2 {
+                            display: inline;
+                            color  : #456fff;
+                            cursor : pointer;
+                        }
+                    }
+
+                    .btn {
+                        display         : block;
+                        width           : 360px;
+                        height          : 48px;
+                        line-height     : 48px;
+                        font-size       : 17px;
+                        color           : #fff;
+                        text-align      : center;
+                        margin          : 0 auto;
+                        margin-top      : 20px;
+                        cursor          : pointer;
+                        background-color: #456fff;
+
+                        &:hover {
+                            background-color: #2d5af0;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .foot {
+        margin-top   : 135px;
+        margin-bottom: 30px;
+        text-align   : center;
+        font-size    : 11px;
+        color        : #9d9d9d;
+
+        .service {
+            display        : flex;
+            justify-content: center;
+
+            .toser {
+                text-decoration: none;
+                color          : #666;
+
+                display: flex;
+
+                img {
+                    width         : 18px;
+                    height        : 15px;
+                    vertical-align: text-bottom;
+                    margin-right  : 10px;
+                }
+
+                .phone {
+                    width : 12px;
+                    height: 16px;
+                }
+
+                span {
+                    margin-right: 30px;
+                }
+            }
+        }
+
+        .copy {
+            padding   : 10px 0;
+            font-size : 10px;
+            box-sizing: border-box;
+        }
+    }
+}

@@ -1,0 +1,208 @@
+@charset "utf-8";
+body,
+html {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+  background-color: #f7f7f7;
+}
+body .out .in {
+  width: 860px;
+  min-height: 670px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 80px;
+  overflow: hidden;
+}
+body .out .in .logo {
+  margin-top: 60px;
+}
+body .out .in .logo .logobox {
+  width: 160px;
+  height: 42px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+body .out .in .logo .logobox img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+body .out .in .title {
+  font-family: HYQiHei-FZS;
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+  margin-top: 33px;
+}
+body .out .in .outbox {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 63px;
+  margin-bottom: 100px;
+}
+body .out .in .outbox .innerbox {
+  width: 360px;
+}
+body .out .in .outbox .innerbox .country {
+  height: 46px;
+  background-color: #fff;
+  border: 1px solid #dedfe0;
+  font-size: 16px;
+  color: #000;
+  padding-left: 12px;
+  line-height: 48px;
+  position: relative;
+  cursor: pointer;
+}
+body .out .in .outbox .innerbox .country .show-country {
+  height: 46px;
+  position: relative;
+}
+body .out .in .outbox .innerbox .country .show-country .arrow {
+  width: 18.8px;
+  height: 10.2px;
+  float: right;
+  position: absolute;
+  top: 19px;
+  right: 15.2px;
+}
+body .out .in .outbox .innerbox .country .show-country .arrow img {
+  width: 18.8px;
+  height: 10.2px;
+  vertical-align: top;
+}
+body .out .in .outbox .innerbox .hint {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+  line-height: 19px;
+}
+body .out .in .outbox .innerbox .phonebox {
+  margin-top: 15px;
+  height: 46px;
+  border: 1px solid #dedfe0;
+  cursor: pointer;
+}
+body .out .in .outbox .innerbox .phonebox .phonecode {
+  width: 94px;
+  height: 46px;
+  padding-left: 12px;
+  line-height: 46px;
+  font-size: 16px;
+  color: #000;
+  float: left;
+  position: relative;
+}
+body .out .in .outbox .innerbox .phonebox .phonecode .showcode {
+  position: relative;
+}
+body .out .in .outbox .innerbox .phonebox .phonecode .showcode .after {
+  width: 13.2px;
+  height: 7.7px;
+  position: absolute;
+  top: 21.3px;
+  right: 31.3px;
+  background: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/arrow-down.42027c9.png) no-repeat;
+  background-size: 100% 100%;
+}
+body .out .in .outbox .innerbox .phonebox .phonecode .showcode .input {
+  top: 0px;
+  right: -252px;
+  position: absolute;
+  width: 264px;
+  font-size: 16px;
+  color: #aaaaaa;
+  height: 46px;
+  line-height: 46px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: transparent !important;
+  border: none;
+  letter-spacing: 1px !important;
+  margin: 0;
+}
+body .out .in .outbox .innerbox .phonebox .phonecode .showcode .input::-webkit-input-placeholder,
+body .out .in .outbox .innerbox .phonebox .phonecode .showcode textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #aaa;
+}
+body .out .in .outbox .innerbox .proto {
+  margin-top: 20px;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+}
+body .out .in .outbox .innerbox .proto input {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #dedfe0;
+  margin-top: 1px;
+  float: left;
+  position: relative;
+}
+body .out .in .outbox .innerbox .proto span {
+  margin-left: 8px;
+  color: #252525;
+  display: inline;
+}
+body .out .in .outbox .innerbox .proto .span2 {
+  display: inline;
+  color: #456fff;
+  cursor: pointer;
+}
+body .out .in .outbox .innerbox .btn {
+  display: block;
+  width: 360px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #456fff;
+}
+body .out .in .outbox .innerbox .btn:hover {
+  background-color: #2d5af0;
+}
+body .foot {
+  margin-top: 135px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 11px;
+  color: #9d9d9d;
+}
+body .foot .service {
+  display: flex;
+  justify-content: center;
+}
+body .foot .service .toser {
+  text-decoration: none;
+  color: #666;
+  display: flex;
+}
+body .foot .service .toser img {
+  width: 18px;
+  height: 15px;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+body .foot .service .toser .phone {
+  width: 12px;
+  height: 16px;
+}
+body .foot .service .toser span {
+  margin-right: 30px;
+}
+body .foot .copy {
+  padding: 10px 0;
+  font-size: 10px;
+  box-sizing: border-box;
+}
